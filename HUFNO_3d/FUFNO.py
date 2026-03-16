@@ -288,9 +288,9 @@ t1 = default_timer()
 
 
 
-vor_data = np.load('../../fno_data/3D_hill_re700testtraindata400d200_uniform_32_33_16_nofilter_a1.0.npy') 
+vor_data = np.load('../../data/2D_hill_re700_400d200_uniform_grid_21x400x32x33x16x3_shape_a1.0.npy') 
 
-vor_data = vor_data[0:20,...,0:3]
+vor_data = vor_data[0:20,...]
 
 vor_data = torch.from_numpy(vor_data) 
 
